@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-image: url(./assets/artem-sapegin-XGDBdSQ70O0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height:100vh
+    
+}
+
+.main{
+    padding: 15px;
+    border: blanchedalmond solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    font-family: Ubuntu,'Open Sans', 'Helvetica Neue';
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: black solid 1.2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(0, 139, 86);
+}
+
+#save-btn {
+    background: rgb(30, 34, 30);
+}
+
